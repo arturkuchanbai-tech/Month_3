@@ -7,7 +7,7 @@ task_table = """CREATE TABLE IF NOT EXISTS tasks (
 """
 
 #creat 
-insert_task = 'INCERT INTO task (task) VALUES (?)'
+insert_task = 'INSERT INTO tasks (task) VALUES (?)'
 
 #read
 selecr_task = 'SELECT id, task FROM tasks'
